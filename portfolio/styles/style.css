@@ -1,0 +1,45 @@
+:root{
+  --clr-dark: #1c1717;
+  --clr-light: #E8D6CB;
+  --clr-200:#CBEFB6; 
+  --clr-400: #B4C292;
+  --clr-600: #386641;
+  --clr-800: #152a09;
+  --clr-light-accent: #846A6A;
+  --clr-med-accent: #554444;
+  --clr-dark-accent:#2E0219 ;
+}
+
+*{
+  margin:0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html{
+  scroll-behavior:smooth
+}
+
+body{
+  font-family: 'Tabular', sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button{
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--clr-400)
+}
