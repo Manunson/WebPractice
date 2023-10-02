@@ -29,3 +29,8 @@ header{
     border: 1px solid var(--clr-light-accent);
     padding-top: 1.3rem;
 }
+
+.fa-sun{
+    color: var(--clr-light-accent);
+    width: x-small;
+}
